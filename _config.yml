@@ -92,8 +92,8 @@ theme_mode: # [light | dark]
 # Notice that once it is assigned, the CDN url
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
-# e.g. ''
-cdn:
+# e.g. 'https://cdn.com'
+img_cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/commons/avatar.jpg"
