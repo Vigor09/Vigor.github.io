@@ -16,7 +16,7 @@ timezone:
 
 title: VigorBlog # the main title
 
-tagline: 卢伟国的个人博客 # it will display as the sub-title
+tagline: 测试一下 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
