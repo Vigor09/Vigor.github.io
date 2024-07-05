@@ -1,6 +1,8 @@
 ---
-layout: simple
-title: 饥饿艺术家
+title: TITLE
+date: 2019-08-08 16:18:00 +0800
+categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+tags: [test]    
 ---
 
 
