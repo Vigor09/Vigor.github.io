@@ -5,6 +5,8 @@ categories: [GLSL, Shader]
 tags: [glsl]    
 ---
 
+[TOC]
+
 # 常用函数算法
 - 一些平时自己经常用的函数算法
 
@@ -16,7 +18,7 @@ return smoothstep(0.0, 0.5, t) * (1.0 - smoothstep(0.5, 1.0, t));
 }  
 ```
 
-##UV旋转
+## UV旋转
 ```glsl
 //弧度
 void Rotate_Radians(vec2 UV, vec2 Center, float Rotation, out vec2 Out)
@@ -52,7 +54,7 @@ void Rotate_Degrees(vec2 UV, vec2 Center, float Rotation, out vec2 Out)
 }
 ```
 
-##UV中心缩放
+## UV中心缩放
 ```glsl
 // 顶点着色器
 vertex shader
