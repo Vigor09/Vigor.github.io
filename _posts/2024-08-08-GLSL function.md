@@ -5,8 +5,6 @@ categories: [GLSL, Shader]
 tags: [glsl]    
 ---
 
-[TOC]
-
 # 常用函数算法
 - 一些平时自己经常用的函数算法
 
