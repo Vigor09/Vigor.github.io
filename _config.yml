@@ -168,9 +168,6 @@ collections:
   tabs:
     output: true
     sort_by: order
-   notes:
-    output: true
-    sort_by: name
 
 defaults:
   - scope:
@@ -197,12 +194,7 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
-  - scope:
-        path: "_notes"
-        type: notes
-     values:
-        layout: reading-note
-        permalink: /reading-notes/:title/
+
 sass:
   style: compressed
 
