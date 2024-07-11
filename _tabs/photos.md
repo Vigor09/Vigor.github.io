@@ -1,6 +1,6 @@
 ---
 layout: 图片
-icon: fa-solid fa-image
+icon: fas fa-image
 order: 5
 ---
 

@@ -197,7 +197,6 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
-# reading-notes
   - scope:
         path: "_notes"
         type: notes
