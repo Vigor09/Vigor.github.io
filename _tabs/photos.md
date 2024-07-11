@@ -1,5 +1,5 @@
 ---
-icon: fas fa-image
+icon: fa-solid fa-image
 order: 5
 ---
 
