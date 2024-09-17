@@ -32,7 +32,7 @@ tags: [glsl]
   >因为高分辨率的缘故，基本车模边缘都会出现明显锯齿。但由于性能关系。只会调用低级别的全局MSAA。
    
 - 在美术贴图优化上就是MSAA的逻辑，如图：   
-![贴图锯齿优化](/assets/img/postAssets/aliasing_1.jpg)  
+![贴图锯齿优化](/assets/img/postAssets/aliasing.jpg)  
 我们在贴图上将比较实的边缘，颜色值递减，外移2~3个像素即可。
 
 ---
