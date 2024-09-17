@@ -5,8 +5,6 @@ categories: [GLSL, Shader]
 tags: [glsl]    
 ---
 
-# 利用美术资源修复锯齿
-
 *平时项目修复锯齿问题的方法记录*
 
 ---
