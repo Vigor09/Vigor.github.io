@@ -1,5 +1,5 @@
 ---
 icon: fa-solid fa-image
-order: 6
+order: 4
 ---
 
