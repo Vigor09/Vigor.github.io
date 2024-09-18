@@ -1,8 +1,8 @@
 ---
 title: 利用美术资源修复锯齿
 date: 2024-08-18 20:11:00 +0800
-categories: [GLSL, Shader]
-tags: [glsl]    
+categories: [Graphics]
+tags: [graphics]    
 ---
 
 *平时项目修复锯齿问题的方法记录*
