@@ -44,13 +44,6 @@ void Rotate_Degrees(vec2 UV, vec2 Center, float Rotation, out vec2 Out)
   float c = cos(Rotation);
   mat2 rMatrix = mat2(vec2(c, -s), vec2(s, c));
   rMatrix *= 0.5;
-  // 在这里添加GLSL编辑器的HTML代码
-<div id="glsl-editor-container"></div>
-<script src="assets/js/glslEditor.js"></script>
-<script>
-// 初始化GLSL编辑器
-const editor = new glslEditor('#glsl-editor-container');
-  </script>
   rMatrix += 0.5;
   rMatrix = rMatrix * 2.0 - 1.0;
   UV.xy = UV.xy*rMatrix;
@@ -78,4 +71,12 @@ void main() {
     scaled_uv = relative_uv + center_uv;  // 加上中心坐标得到最终的缩放后的 UV 坐标
 }
 ```
-
+这是一个Markdown段落，下面是一个HTML表单：
+<br>
+<form action="/submit" method="post">
+  <label for="name">姓名：</label>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">邮箱：</label>
+  <input type="email" id="email" name="email"><br>
+  <input type="submit" value="提交">
+</form>
