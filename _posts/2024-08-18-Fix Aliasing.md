@@ -14,7 +14,7 @@ tags: [graphics]
 
 
 - 在渲染结果图像上颜色剧烈变化的区域出现锯齿状一样的斑纹的现象。如下图：   
-![画面锯齿](/assets/img/postAssets/aliasing_1.jpg)
+![画面锯齿](/assets/img/postAssets/aliasing_1.jpg)   
 - 出现这种情况，是因为我们的屏幕，是以一个个正方形的像素点组成的。而正方形的特性会导致像素渲染在非直线时，
 边缘必定会出现一个个突起的阶梯状“毛刺”。
 
@@ -30,7 +30,7 @@ tags: [graphics]
   >因为高分辨率的缘故，基本车模边缘都会出现明显锯齿。但由于性能关系。只会调用低级别的全局MSAA。
    
 - 在美术贴图优化上就是MSAA的逻辑，如图：   
-![贴图锯齿优化](/assets/img/postAssets/aliasing.jpg)  
+![贴图锯齿优化](/assets/img/postAssets/aliasing.jpg)   
 我们在贴图上将比较实的边缘，颜色值递减，外移2~3个像素即可。
 
 ---
