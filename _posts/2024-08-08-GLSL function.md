@@ -71,6 +71,22 @@ void main() {
     scaled_uv = relative_uv + center_uv;  // 加上中心坐标得到最终的缩放后的 UV 坐标
 }
 ```
-# [GlslEditor](https://github.com/patriciogonzalezvivo/glslEditor)
+---
 
-<iframe src="http://editor.thebookofshaders.com/" width="800" height="600" frameborder="0"></iframe>
+### 示例：在Markdown中使用glslEditor
+
+以下是一个使用`glslEditor`的示例。你可以在这个编辑器中编写和测试GLSL代码。
+
+<div id="glsl_editor"></div>
+
+<script type="text/javascript">
+    const glslEditor = new GlslEditor('#glsl_editor', { 
+        canvas_size: 500,
+        canvas_draggable: true,
+        theme: 'monokai',
+        multipleBuffers: true,
+        watchHash: true,
+        fileDrops: true,
+        menu: true
+    });
+</script>
