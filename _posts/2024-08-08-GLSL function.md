@@ -77,6 +77,8 @@ void main() {
 
 以下是一个使用`glslEditor`的示例。你可以在这个编辑器中编写和测试GLSL代码。
 
+<script src="glslEditor.js"></script>
+
 <div id="glsl_editor"></div>
 
 <script type="text/javascript">
